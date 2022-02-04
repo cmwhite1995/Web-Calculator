@@ -1,5 +1,5 @@
-const express = require('express');
-const app = express();
+const awsServerlessExpress = require('aws-serverless-express');
+const app = awsServerlessExpress();
 const port = 3000;
 const bodyParser = require("body-parser");
 
